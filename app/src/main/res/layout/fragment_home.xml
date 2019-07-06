@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="169dp"
+            android:background="@color/colorAccent"
+            app:cardBackgroundColor="@color/colorPrimary">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textDay"
+                android:text="Friday"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:layout_marginTop="30dp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textDate"
+                android:text="26 April, 2018"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:layout_marginTop="70dp"/>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+            android:layout_marginTop="169dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</FrameLayout>
